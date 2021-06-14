@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 from fake_useragent import UserAgent
-from proxy import proxy_list
+# from proxy import proxy_list
 import random
 from selenium.webdriver.common.keys import Keys
 import csv
@@ -9,11 +9,13 @@ from multiprocessing import Pool
 
 ua = UserAgent()
 
-
+proxy_list = ['128.199.201.245:8080', '157.230.103.189:45153', '138.199.4.96:3128',
+              '186.225.46.89:8080', '14.241.111.38:8080', '35.195.6.233:3128',
+              '216.108.228.69:3128']
 def finder():
     poland_items = []
-    with open('poland.csv') as file:
-        for y, i in enumerate(file.readlines()[1:], 1):
+    with open('p.csv') as file:
+        for y, i in enumerate(file.readlines(), 1):
             lst = i.split("|")
             lst.insert(0, str(y))
             poland_items.append(lst)
@@ -22,7 +24,7 @@ def finder():
 
 
 def writer(res_list):
-    file = open("czes.csv", "a+")
+    file = open("AAA.csv", "a+")
     writer = csv.writer(file, delimiter="|")
     writer.writerow(res_list)
     file.close()
@@ -42,7 +44,7 @@ def czesciauto(list_finders):
         options = webdriver.ChromeOptions()
         options.add_argument(f"user-agent={ua.random}")
         options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         options.add_argument(f"--proxy-server={random.choice(proxy_list)}")
         driver = webdriver.Chrome(options=options)
         try:
@@ -50,7 +52,7 @@ def czesciauto(list_finders):
             input = driver.find_element_by_id('search')
             input.clear()
             input.send_keys(f'{hunter}')
-            # driver.implicitly_wait(2)
+            driver.implicitly_wait(2)
 
             input.send_keys(Keys.ENTER)
             containers = driver.find_elements_by_class_name('brand-products')
@@ -64,8 +66,8 @@ def czesciauto(list_finders):
                 link = 'no such item'
                 price = '0'
                 for cont in containers:
-                    time.sleep(3)
                     vendor_code = cont.find_element_by_class_name('nr').find_element_by_tag_name("span").text.split(":")[1].replace(" ", "")
+                    print(vendor_code)
                     if finders.strip() == vendor_code.strip():
                         name = cont.find_element_by_class_name("description").find_element_by_class_name("ga-click").text
                         print(name)
@@ -91,10 +93,7 @@ def czesciauto(list_finders):
 
 if __name__ == "__main__":
     list_finders = finder()
-    p = Pool(processes=3)
+    p = Pool(processes=1)
     p.map(czesciauto, list_finders)
-
-
-
 
 

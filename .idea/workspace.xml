@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55a60fd7-a44f-42bc-b5e7-e21c0d6434a8" name="Default Changelist" comment="" />
+    <list default="true" id="55a60fd7-a44f-42bc-b5e7-e21c0d6434a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autodoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodoc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/czes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/czesciauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/czesciauto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p.csv" beforeDir="false" afterPath="$PROJECT_DIR$/p.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poland.csv" beforeDir="false" afterPath="$PROJECT_DIR$/poland.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prox_adress" beforeDir="false" afterPath="$PROJECT_DIR$/prox_adress" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxx.py" beforeDir="false" afterPath="$PROJECT_DIR$/xxx.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,16 +20,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="585a328a-5488-401b-a5d0-28831b4d7a57" />
+        <option name="url" value="https://github.com/stepanenko-ya/RRR.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="1thl4nMwsdLwgi2zdEGOJKU8Mr6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,7 +64,7 @@
       <updated>1623229013473</updated>
       <workItem from="1623229014990" duration="5564000" />
       <workItem from="1623235287548" duration="36963000" />
-      <workItem from="1623330046070" duration="37133000" />
+      <workItem from="1623330046070" duration="64900000" />
     </task>
     <servers />
   </component>

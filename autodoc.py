@@ -47,7 +47,6 @@ def autodoc(list_finders):
                     price = dirty_price.split(' ')[0]
                 except:
                     price = "0"
-
                 file_res = open('autodoc.csv', "a+")
                 file_res.write(f"{url}|{price}\n")
                 file_res.close()
