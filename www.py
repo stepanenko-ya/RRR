@@ -78,6 +78,7 @@ def czesciauto(list_finders):
                             if url:
                                 link = url
 
+
         except Exception as ex:
             print(ex)
         else:

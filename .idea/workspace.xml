@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="55a60fd7-a44f-42bc-b5e7-e21c0d6434a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autodoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodoc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/czes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/czes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/czes.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/czesciauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/czesciauto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/p.csv" beforeDir="false" afterPath="$PROJECT_DIR$/p.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poland.csv" beforeDir="false" afterPath="$PROJECT_DIR$/poland.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prox_adress" beforeDir="false" afterPath="$PROJECT_DIR$/prox_adress" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssss.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xxx.py" beforeDir="false" afterPath="$PROJECT_DIR$/xxx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.py" beforeDir="false" afterPath="$PROJECT_DIR$/www.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,7 +63,8 @@
       <updated>1623229013473</updated>
       <workItem from="1623229014990" duration="5564000" />
       <workItem from="1623235287548" duration="36963000" />
-      <workItem from="1623330046070" duration="64900000" />
+      <workItem from="1623330046070" duration="72697000" />
+      <workItem from="1623745179305" duration="22145000" />
     </task>
     <servers />
   </component>
