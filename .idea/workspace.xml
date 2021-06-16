@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="55a60fd7-a44f-42bc-b5e7-e21c0d6434a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/czes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/czes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/czesciauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/czesciauto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipart.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/p.csv" beforeDir="false" afterPath="$PROJECT_DIR$/p.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poland.csv" beforeDir="false" afterPath="$PROJECT_DIR$/poland.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prox_adress" beforeDir="false" afterPath="$PROJECT_DIR$/prox_adress" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www.py" beforeDir="false" afterPath="$PROJECT_DIR$/www.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/tryip.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1thl4nMwsdLwgi2zdEGOJKU8Mr6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,7 +67,10 @@
       <workItem from="1623229014990" duration="5564000" />
       <workItem from="1623235287548" duration="36963000" />
       <workItem from="1623330046070" duration="72697000" />
-      <workItem from="1623745179305" duration="22145000" />
+      <workItem from="1623745179305" duration="22357000" />
+      <workItem from="1623825145161" duration="12552000" />
+      <workItem from="1623841278105" duration="1278000" />
+      <workItem from="1623842613092" duration="10384000" />
     </task>
     <servers />
   </component>

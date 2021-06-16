@@ -1,3 +1,16 @@
+
+from bs4 import BeautifulSoup
+from selenium import webdriver
+import time
+from fake_useragent import UserAgent
+from proxy import proxy_list
+import random
+from selenium.webdriver.common.keys import Keys
+import csv
+
+ua = UserAgent()
+
+
 def try_ip():
     x = True
     while x:
@@ -20,3 +33,5 @@ def try_ip():
         finally:
             driver.close()
             driver.quit()
+
+try_ip()
